@@ -1,0 +1,15 @@
+{
+    "name": "fernando/actions",
+    "autoload": {
+        "psr-4": {
+            "Fernando\\Actions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando",
+            "email": "fernando93d@gmail.com"
+        }
+    ],
+    "require": {}
+}
