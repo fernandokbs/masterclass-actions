@@ -4,6 +4,13 @@ on:
   - push
 
 jobs:
+  set-up:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: INSTALAR DEPENDENCIAS
+        run: echo "INSTALANDO DEPENDENCIAS ..."
+
   deploy:
     runs-on: ubuntu-latest
 
