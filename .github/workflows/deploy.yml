@@ -4,9 +4,16 @@ on:
  - push
 
 jobs:
+  set-up:
+    runs-on: ubuntu-latest
+    steps:
+     - name: setup
+       run: echo "setup"
+
   deploy:
     runs-on: ubuntu-latest
 
     steps:
      - name: Hola Mundo
        run: echo "HOLA MUNDO"
+  
