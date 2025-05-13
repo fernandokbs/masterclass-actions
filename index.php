@@ -12,7 +12,7 @@
     style="width: 500px;" class="w-72 h-auto mb-4 rounded shadow-lg" />
 
   <p class="text-xl text-gray-700 font-semibold" style="font-size: 30px;">
-    Masterclass GitHub Actions en CodigoFacilito, en vivo!
+    Masterclass GitHub Actions en CodigoFacilito, en vivo! Hola
   </p>
 
 </body>
