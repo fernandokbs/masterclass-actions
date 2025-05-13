@@ -14,11 +14,10 @@ jobs:
        run: echo "setup"
 
   deploy:
-    if: false
     needs: set-up
     runs-on: ubuntu-latest
 
     steps:
      - name: Hola Mundo
-       run: echo "HOLA MUNDO"
+       run: echo "${{ secrets.NAME }}"
   
