@@ -1,7 +1,9 @@
 name: Deploy to server
 
 on:
- - push
+  push:
+    branches:
+      - main
 
 jobs:
   set-up:
