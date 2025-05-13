@@ -19,7 +19,4 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_KEY }}
 
      - name: Create file
-       run: ssh -o StrictHostKeyChecking=no root@206.189.176.191 touch tutorial.txt
-
-     - name: setup
-       run: ls -al
+       run: bash deploy.sh
