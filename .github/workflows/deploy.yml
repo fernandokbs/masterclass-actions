@@ -11,6 +11,7 @@ jobs:
        run: echo "setup"
 
   deploy:
+    needs: set-up
     runs-on: ubuntu-latest
 
     steps:
