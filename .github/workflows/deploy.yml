@@ -11,13 +11,4 @@ jobs:
 
     steps:
      - name: setup
-       run: echo "setup"
-
-  deploy:
-    needs: set-up
-    runs-on: ubuntu-latest
-
-    steps:
-     - name: Hola Mundo
-       run: echo "${{ secrets.NAME }}"
-  
+       run: ls -al
